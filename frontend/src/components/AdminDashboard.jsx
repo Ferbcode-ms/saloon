@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { logoutAdmin } from "../../redux/slices/authSlice"; // Adjust the import based on your action file structure
 import { toast, ToastContainer } from "react-toastify"; // Import Toastify
 import "react-toastify/dist/ReactToastify.css"; // Import CSS
-
 const AdminDashboard = () => {
   const [appointments, setAppointments] = useState([]);
   const [selectedDate, setSelectedDate] = useState("");
